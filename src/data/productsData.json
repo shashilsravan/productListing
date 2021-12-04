@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Full Sleeve Solid Men Quilted Jacket",
+        "price": 500, "assured": true, "size": ["medium", "large"],
+        "category": "men", "subCategory": "tshirts",
+        "brand": "nike", "rating": 4.3, "discountPercentage": 60, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/jph83gw0/jacket/p/z/z/m-1285-fk-breil-by-fort-collins-original-imafbpybzkgcaxhe.jpeg?q=50"
+    },
+    {
+        "id": 2,
+        "name": "Color Block Men Hooded Neck White, Black T-Shirt",
+        "price": 410, "assured": false, "size": ["medium","large", "extra large"],
+        "category": "men", "subCategory": "hoodies",
+        "brand": "park avenue", "rating": 3.9, "discountPercentage": 29, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/ktop5e80/t-shirt/x/g/y/s-604-white-rawhit-original-imag6yj8rmvagtk2.jpeg?q=50"
+    },
+    {
+        "id": 3,
+        "name": "Printed Men Hooded Neck Red, Black T-Shirt",
+        "price": 399, "assured": true, "size": ["medium", "extra large"],
+        "category": "men", "subCategory": "hoodies",
+        "brand": "peter england", "rating": 4.0, "discountPercentage": 30, "available": false,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/ks99aq80/t-shirt/r/y/r/l-trdblhdfulmask-d36-tripr-original-imag5v9evf2gzhar.jpeg?q=50"
+    },
+    {
+        "id": 4,
+        "name": "Solid Women Round Neck Light Green T-Shirt",
+        "price": 435, "assured": false, "size": ["small", "medium", "large"],
+        "category": "women", "subCategory": "tshirts",
+        "brand": "addidas", "rating": 3.8, "discountPercentage": 30, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/kflftzk0-0/t-shirt/v/2/z/l-sheyn111-sheyn-original-imafwyfbunhbeeme.jpeg?q=50"
+    },
+    {
+        "id": 5,
+        "name": "Boys Colorblock Cotton Blend T Shirt",
+        "price": 335, "assured": false, "size": ["small", "medium"],
+        "category": "boys", "subCategory": "shirts",
+        "brand": "park avenue", "rating": 4.0, "discountPercentage": 40, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/klv7ekw0/kids-t-shirt/r/4/g/8-9-years-bmrnvhenfulboy-bz14-blive-original-imagyw3wsesx5gdt.jpeg?q=50"
+    },
+    {
+        "id": 6,
+        "name": "Boys Printed Cotton Blend Hoodie",
+        "price": 685, "assured": false, "size": ["small", "medium", "large", "extra large"],
+        "category": "boys", "subCategory": "thoodies",
+        "brand": "nike", "rating": 4.6, "discountPercentage": 50, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/kl8ccy80/kids-t-shirt/n/a/q/6-7-years-h-printed-40783-smartraho-original-imagyef4gzrzcpbg.jpeg?q=50"
+    },
+    {
+        "id": 7,
+        "name": "Solid, Striped Women Round Neck Yellow, White T-Shirt",
+        "price": 315, "assured": true, "size": ["small", "large"],
+        "category": "women", "subCategory": "tshirts",
+        "brand": "addidas", "rating": 4.1, "discountPercentage": 30, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/kp036vk0/t-shirt/z/l/b/l-wpm-girls-shoppie-original-imag3bwjzqp4hhpa.jpeg?q=50"
+    },
+    {
+        "id": 8,
+        "name": "Girls Printed Cotton Blend T Shirt  (Multicolor, Pack of 5)",
+        "price": 400, "assured": false, "size": ["small", "medium", "large"],
+        "category": "girls", "subCategory": "tshirts",
+        "brand": "peter england", "rating": 3.9, "discountPercentage": 60, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/kmkxbww0/kids-t-shirt/v/q/s/6-7-years-kuctshrt151-kuchipoo-original-imagfgevhyfpqh6w.jpeg?q=50"
+    },
+    {
+        "id": 9,
+        "name": "Women Regular Fit Solid Casual Shirt",
+        "price": 388, "assured": false, "size": ["small", "medium" ,"large", "extra large"],
+        "category": "women", "subCategory": "shirts",
+        "brand": "roadster", "rating": 4.3, "discountPercentage": 30, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/j5bceq80/shirt/k/d/4/xl-1764467-roadster-original-imaev3sz5zzhdezv.jpeg?q=50"
+    },
+    {
+        "id": 10,
+        "name": "Full Sleeve Solid Men Quilted Jacket",
+        "price": 485, "assured": true, "size": ["small", "medium"],
+        "category": "men", "subCategory": "shirts",
+        "brand": "nike", "rating": 3.9, "discountPercentage": 30, "available": false,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/ktop5e80/shirt/p/8/c/xl-black-colur-shirt-sat-creation-original-imag6zd2hybpncrq.jpeg?q=50"
+    },
+    {
+        "id": 11,
+        "name": "Men Slim Fit Graphic Print Hood Collar Casual Shirt",
+        "price": 405, "assured": true, "size": ["small","medium","large","extra large"],
+        "category": "men", "subCategory": "shirts",
+        "brand": "nike", "rating": 3.7, "discountPercentage": 30, "available": false,
+        "image": "https://rukminim1.flixcart.com/image/880/1056/kqco5u80/shirt/q/5/j/l-p1-sht-hood-geographical-plus91-original-imag4dvyghm63gf8.jpeg?q=50"
+    },
+    {
+        "id": 12,
+        "name": "Girls Printed Cotton Blend T Shirt  ",
+        "price": 499, "assured": false, "size": ["small","medium"],
+        "category": "girls", "subCategory": "tshirts",
+        "brand": "new brand", "rating": 4.0, "discountPercentage": 60, "available": true,
+        "image": "https://rukminim1.flixcart.com/image/554/665/kr3tj0w0/kids-t-shirt/i/b/k/2-3-years-dsn-fls-201-3-disney-by-miss-chief-original-imag4z9hzkkmbrqh.jpeg?q=50"
+    }
+]
