@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Alert } from 'reactstrap'
 import ProductCard from './ProductCard'
 
 export default function ProductsList({data}) {
@@ -24,6 +25,11 @@ export default function ProductsList({data}) {
     }, [selectedSort])
     return (
         <div>
+            {tempData.length === 0 ? 
+                <Alert color='primary' className='my-4'>
+                    Sorry no data available with selected filters
+                </Alert>
+            : <>
             <div className='my-2 d-flex align-items-center'>
                 <h6 className='my-0 mx-2'>Sort By: </h6>
                 <button className={`btn ${selectedSort === 'l-h' ? 'btn-primary' : ''} mx-2`}
@@ -36,6 +42,7 @@ export default function ProductsList({data}) {
                     <ProductCard data={each} key={each.id} />
                 ))}
             </div>
+            </>}
         </div>
     )
 }

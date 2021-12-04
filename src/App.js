@@ -14,13 +14,6 @@ function App() {
   const [userFilters, setUserFilters] = useState({
     categories: [], size: [], subCategory: [] 
   })
-  // 0      0      1
-  // 0      1      0
-  // 0      1      1
-  // 1      0      0
-  // 1      0      1
-  // 1      1      0
-  // 1      1      1
 
 
   useEffect(() => {
