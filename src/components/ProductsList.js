@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Alert } from 'reactstrap'
 import ProductCard from './ProductCard'
 
-export default function ProductsList({data}) {
+export default function ProductsList({data, cartData, setCartData}) {
     const [selectedSort, setSelectedSort] = useState('')
     const [tempData, setTempData] = useState(data)
 
@@ -39,7 +39,8 @@ export default function ProductsList({data}) {
             </div>
             <div className='d-flex flex-wrap mt-4'>
                 {tempData.map(each => (
-                    <ProductCard data={each} key={each.id} />
+                    <ProductCard data={each} key={each.id} cartData={cartData}
+                        setCartData={setCartData} />
                 ))}
             </div>
             </>}

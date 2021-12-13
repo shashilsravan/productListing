@@ -7,6 +7,9 @@ import Sidebar from './components/Sidebar';
 import ProductsList from './components/ProductsList';
 import ReactTooltip from 'react-tooltip';
 import data from './data/productsData.json'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import CartPage from './components/CartPage';
+import Homepage from './components/Homepage';
 
 function App() {
   const [tempData, setTempData] = useState(data)
@@ -14,6 +17,7 @@ function App() {
   const [userFilters, setUserFilters] = useState({
     categories: [], size: [], subCategory: [] 
   })
+  const [cartData, setCartData] = useState([])
 
 
   useEffect(() => {
@@ -57,21 +61,17 @@ function App() {
     setTempData(result)
   }, [userFilters])
 
-  useEffect(() => {
-    console.log(`tempData`, tempData)
-  }, [tempData])
-
   return (
     <Container fluid className='p-0'>
-      <Header />
-      <Row>
-        <Col md={3} className='p-3'>
-            <Sidebar setUserFilters={setUserFilters} />
-        </Col>
-        <Col md={9} className='p-3'>
-            <ProductsList data={tempData} />
-        </Col>
-      </Row>
+      
+      <Router>
+      <Header count={cartData} />
+        <Routes>
+          <Route path='/cart' exact element={<CartPage cartData={cartData} setCartData={setCartData} />} />
+          <Route path='/' exact element={<Homepage setUserFilters={setUserFilters} tempData={tempData} 
+              cartData={cartData} setCartData={setCartData} />} />
+        </Routes>
+      </Router>
       <ReactTooltip />
     </Container>
   );

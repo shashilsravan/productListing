@@ -1,7 +1,20 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Badge, Card } from 'reactstrap'
 
-export default function ProductCard({data}) {
+export default function ProductCard({data, cartData, setCartData}) {
+    const [inCart, setInCart] = useState(false)
+
+    useEffect(() => {
+        cartData.forEach(element => {
+            if (element.id === data.id){
+                setInCart(true)
+            }
+        });
+    }, [cartData])
+
+    const addToCart = (data) => {
+        setCartData([...cartData, data])
+    }
     return (
         <Card className='p-3 me-4 mb-4 my-card' style={{width: 260}}>
             <img src={data.image} style={{width: '100%'}} />
@@ -21,6 +34,12 @@ export default function ProductCard({data}) {
                     <Badge key={each} className='mx-1'>{each}</Badge>
                 ))}
             </div>
+            {inCart ? 
+            <button className='btn btn-success mt-4' disabled>Added to cart</button>
+            : <button className='btn mt-4 btn-outline-primary'
+                onClick={() => addToCart(data)}>
+                Add to Cart
+            </button>}
         </Card>
     )
 }
