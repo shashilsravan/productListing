@@ -37,7 +37,7 @@ export default function CartPage({cartData, setCartData}) {
 
     const increaseQuantity = (id) => {
         let tempArr = []
-        cartData.forEach(element => {
+        tempCartData.forEach(element => {
             if (element.id == id){
                 tempArr.push({...element, count: element.count + 1})
             }
@@ -50,7 +50,7 @@ export default function CartPage({cartData, setCartData}) {
 
     const decreaseQuantity = (id) => {
         let tempArr = []
-        cartData.forEach(element => {
+        tempCartData.forEach(element => {
             if (element.id == id){
                 tempArr.push({...element, count: element.count - 1})
             }
@@ -68,6 +68,7 @@ export default function CartPage({cartData, setCartData}) {
                 tempArr.push(element)
             }
         });
+        setCartData(cartData)
         setTempCartData(tempArr)
     }
 
@@ -95,7 +96,6 @@ export default function CartPage({cartData, setCartData}) {
                 tempArr.push(element)
             }
         });
-        
         setCartData(tempArr)
     }
 
